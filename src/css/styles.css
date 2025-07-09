@@ -177,6 +177,21 @@ main section {
   line-height: 30px;
 }
 
+/* what i do section */
+
+.whatIDoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.whatIDoSection .whatIDoSection-contents {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
 /* skill container styles */
 .skill-container {
   display: flex;
@@ -187,4 +202,68 @@ main section {
   padding: 30px 33px;
   border-radius: 5px;
   box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skill-card img {
+  width: 44px;
+}
+
+.skill-card .skill-name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.skill-card .skill-description {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* resume section styles */
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 113px;
+}
+
+.resume-column-container {
+  display: flex;
+  gap: 70px;
+}
+
+.resume-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.resume-column hr {
+  margin: 0 10px;
+}
+
+.resume-column-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.resume-column-item-title {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.resume-column-item-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.resume-column-item-description {
+  font-size: 16px;
+  line-height: 28px;
 }
