@@ -54,6 +54,7 @@
   font-size: 18px;
   color: #757575;
   line-height: 30px;
+  text-align: center;
 }
 
 .secondary-bg {
@@ -138,13 +139,16 @@ main {
   margin: 0 auto;
 }
 
+main section {
+  margin: 130px 0;
+}
+
 /* about section */
 
 .about-section {
   border-radius: 10px;
   text-align: center;
   padding: 130px 150px;
-  margin: 130px 0;
 }
 
 .about-container {
@@ -171,4 +175,16 @@ main {
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
+}
+
+/* skill container styles */
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill-card {
+  padding: 30px 33px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.1);
 }
