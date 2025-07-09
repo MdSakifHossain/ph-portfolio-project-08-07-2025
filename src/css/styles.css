@@ -244,6 +244,7 @@ main section {
 
 .resume-column hr {
   margin: 0 10px;
+  background-color: rgba(209, 209, 209, 1);
 }
 
 .resume-column-title {
@@ -266,4 +267,28 @@ main section {
 .resume-column-item-description {
   font-size: 16px;
   line-height: 28px;
+}
+
+/* footer section */
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 120px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  border-radius: 5px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 18px 30px;
+  border: none;
+  margin-bottom: 24px;
 }
